@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/ginlink/go-demo-log-moniter/log_monitor"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	log_monitor.Run()
 }
